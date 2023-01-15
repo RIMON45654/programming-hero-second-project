@@ -44,6 +44,16 @@ ul {
   }
 }
 
+.item:hover{
+background-color: rgb(255, 183, 0);
+transition-duration: 1s;
+color: white;
+
+}
+.border-red:hover{
+  border: none;
+}
+
 .hero-section {
   /* display: flex;
     justify-content: center; */
