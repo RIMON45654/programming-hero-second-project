@@ -1,0 +1,425 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+  margin: auto;
+}
+.color-for-h1{
+  font-size: 40px;
+}
+.nav-btn {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  cursor: pointer;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* padding: 20px; */
+  width: 100%;
+}
+ul {
+  padding: 10px;
+}
+.nav-hover {
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav-hover:hover {
+  background-color: aqua;
+}
+@media screen and (max-width: 576px) {
+  .main-nav {
+    /* flex-direction: column; */
+    align-items: flex-start;
+    font-size: bold;
+  }
+  .nav-btn {
+    flex-direction: column;
+  }
+}
+
+.hero-section {
+  /* display: flex;
+    justify-content: center; */
+  width: 60%;
+  margin: auto;
+}
+.text {
+  text-align: center;
+  font-size: 50px;
+  /* margin-top: 10px; */
+}
+.text1 {
+}
+.hero-section {
+  margin-top: 10px;
+}
+.btn-explore {
+  padding: 10px;
+  background-color: aqua;
+  font-weight: bold;
+  border: none;
+  width: 10%;
+  margin: auto;
+  margin-top: 10px;
+}
+.btn-explore:hover {
+  background-color: blueviolet;
+  transition-duration: 0.5s;
+  color: white;
+}
+.flex-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.width img {
+  width: 100%;
+  margin-top: 30px;
+}
+@media screen and (max-width: 576px) {
+  .btn-explore {
+    width: 50%;
+  }
+}
+
+.main-hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.main-hero-section {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}
+.color-for-h1 {
+  color: #727272;
+}
+.features {
+  color: #ff900e;
+}
+.font-width-bold {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 10px;
+  background-color: aqua;
+  font-weight: bold;
+  border: none;
+  /* width: 10%; */
+  margin: auto;
+  margin-top: 10px;
+}
+.margain {
+  margin-left: 20px;
+}
+.ml-10 {
+  margin: 10px;
+  width: 85%;
+}
+
+.features{
+  font-size: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  .main-hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-hero-section {
+    width: 100%;
+    margin: auto;
+  }
+  .margain {
+    margin-left: 0px;
+    width: 95%;
+    margin: auto;
+  }
+  .main-hero-section {
+    flex-direction: column;
+    width: 95%;
+    margin: 0;
+  }
+  .btn {
+    background-color: blueviolet;
+    transition-duration: 0.5s;
+    color: white;
+  }
+
+}
+.love-border{
+    border-left: 5px solid orangered;
+    font-weight: 700;
+    font-size: 50px;
+  
+}
+.love-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 65%;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.box-shadow{
+   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 20px;
+    width: 100%;
+
+}
+.box-shadow p{
+    margin-top: 5px;
+}
+
+.img-of-ar{
+    height: 90%;
+    margin: 10px;
+    width: 100%;
+}
+.padding{
+    padding: 40px;
+    background-color: rgba(255, 255, 0, 0.957);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.relative{
+ 
+  
+}
+.padding{
+    position: relative;
+ bottom: 92px;
+ left: 16px;
+ color: red;
+ width: 300px;
+   
+}
+.font{
+    font-size: 40px;
+}
+.gird-col{
+    margin-top: 20px;
+}
+
+@media screen and(max-width:576px) {
+  .padding{
+    width: 50px;
+    font-size: 20px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+    .love-section{
+      
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+       
+        position: relative;
+    
+    }
+    .box-shadow{
+        width: 100%;
+        margin: auto;
+    }
+    .love-border{
+        width: 100%;
+        margin: auto;
+    }
+    .p-bo{
+        width: 101%;
+        margin: auto;
+    }
+    .img-of-ar{
+        width: 85%;
+    }
+    
+}
+
+.section_one{
+    width: 70%;
+    margin: auto;
+    
+}
+.bottom-section{
+    width: 30%;
+  
+
+
+}
+.border-red{
+    border: 2px solid orange;
+}
+
+
+.gird-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+   
+
+
+
+}
+
+.border-red{
+    padding: 10px;
+    margin-left: 10px;
+    width: 70%;
+    margin: auto;
+    gap: 1rem;
+
+    
+
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  
+
+}
+@media screen and (max-width:576px){
+    .gird-col{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        gap: 2rem;
+    }
+    .bottom-section{
+        width: 100%;
+    }
+    .border-red{
+        width: 100%;
+        margin: auto;
+
+    }
+}
+
+.sponser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.s-p{
+  text-align: center;
+}
+
+.foter{
+  display: flex;
+  gap: 6rem;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  text-align: center;
+  margin-top: 60px;
+}
+.mx{
+  margin-top: 100px;
+}
+@media screen and (max-width:576px) {
+  .foter{
+    flex-direction: column;
+  }
+  .s-p{
+    width: 100%;
+    margin: auto;
+  }
+  
+}
+
+
+/* 
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+.mto{
+  width: 100%;
+  margin: auto;
+} 
